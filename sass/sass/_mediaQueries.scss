@@ -1,0 +1,31 @@
+@mixin mediaQueries($deviceType) {
+    @if $deviceType == xl {
+    		@media screen and (min-width: 1200px){
+    			@content;
+    		}
+    }
+	@if $deviceType == lg {
+		@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+			@content;
+		}
+	}
+
+	@else if $deviceType == md {
+		@media screen and (min-width: 768px) and (max-width: 991.98px) {
+			@content;
+		}
+	}
+
+	@else if $deviceType == sm {
+		@media screen and (min-width: 576px) and (max-width: 767.98px) {
+			@content;
+		}
+	}
+
+	@else if $deviceType == xs {
+		@media screen and (max-width: 575.98px) {
+			@content;
+		}
+	}
+
+}

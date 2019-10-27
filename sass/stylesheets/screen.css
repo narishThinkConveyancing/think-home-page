@@ -1,0 +1,203 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 1, ../sass/_utilities.scss */
+html, body, header, .view {
+  height: 100%;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* line 7, ../sass/_utilities.scss */
+.max-w-100 {
+  max-width: 100% !important;
+}
+
+/* Height */
+/* line 13, ../sass/_utilities.scss */
+.h-100vh {
+  height: 100vh !important;
+}
+
+/* line 16, ../sass/_utilities.scss */
+.h-25vh {
+  height: 25vh !important;
+}
+
+/* Height */
+/* Typhography */
+/* line 23, ../sass/_utilities.scss */
+.scarlet-text {
+  color: #FF2500 !important;
+}
+
+/* line 26, ../sass/_utilities.scss */
+.midnight-express-text {
+  color: #01093F !important;
+}
+
+/* line 29, ../sass/_utilities.scss */
+.link-water-text {
+  color: #CFD0D7 !important;
+}
+
+/* line 32, ../sass/_utilities.scss */
+.mischka-text {
+  color: #A5A7B1 !important;
+}
+
+/* line 35, ../sass/_utilities.scss */
+.tifanny-cyan-text {
+  color: #0bc1af !important;
+}
+
+/* line 38, ../sass/_utilities.scss */
+.dark-cyan-text {
+  color: #019A8B !important;
+}
+
+/* line 41, ../sass/_utilities.scss */
+.space-text {
+  color: #AABBCC !important;
+}
+
+/* line 44, ../sass/_utilities.scss */
+.gray-text {
+  color: #979797 !important;
+}
+
+/* line 47, ../sass/_utilities.scss */
+.baby-blue-text {
+  color: #016BB7 !important;
+}
+
+/* line 50, ../sass/_utilities.scss */
+.baby-pink-text {
+  color: #FFB0A1 !important;
+}
+
+/* line 53, ../sass/_utilities.scss */
+.blue-gray-text {
+  color: #9195B1 !important;
+}
+
+/* line 56, ../sass/_utilities.scss */
+.black-text {
+  color: #000000 !important;
+}
+
+/* Typhography */
+/* Backgound */
+/* line 62, ../sass/_utilities.scss */
+.midnight-express-bg {
+  background: #01093F !important;
+}
+
+/* line 65, ../sass/_utilities.scss */
+.midnight-express-bg-30pct {
+  background: #01093f !important;
+}
+
+/* line 68, ../sass/_utilities.scss */
+.ghost-white-bg {
+  background: #f1f2f9 !important;
+}
+
+/* line 71, ../sass/_utilities.scss */
+.nobel-bg {
+  background: #979797 !important;
+}
+
+/* line 74, ../sass/_utilities.scss */
+.mischka-bg {
+  background: #A5A7B1 !important;
+}
+
+/* line 77, ../sass/_utilities.scss */
+.dark-cyan-bg {
+  background: #019A8B !important;
+}
+
+/* line 80, ../sass/_utilities.scss */
+.navy-blue-bg {
+  background: #01093F !important;
+}
+
+/* line 83, ../sass/_utilities.scss */
+.black-bg {
+  background: #000000 !important;
+}
+
+/* line 86, ../sass/_utilities.scss */
+.gray-bg {
+  background: #979797 !important;
+}
+
+/* Backgound */
+/* Backgound image sizing */
+/* line 92, ../sass/_utilities.scss */
+.bg-img-w250px-h250px {
+  width: 250px;
+  height: 250px;
+  background-color: #F5F5F8;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Backgound image sizing */
+/* Additional Spaces*/
+/* line 103, ../sass/_utilities.scss */
+.maxMargin {
+  margin-top: 90px;
+}
+@media screen and (max-width: 575.98px) {
+  /* line 103, ../sass/_utilities.scss */
+  .maxMargin {
+    margin-top: 120px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* line 103, ../sass/_utilities.scss */
+  .maxMargin {
+    margin-top: 120px;
+  }
+}
+
+/* Additional Spaces */
+/* line 2, ../sass/_header.scss */
+header .intro-front-view {
+  background: url("../../assets/img/tssiBanner.png") no-repeat center center;
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 11, ../sass/_header.scss */
+header .navbar {
+  background-color: transparent;
+}
+@media screen and (max-width: 575.98px) {
+  /* line 11, ../sass/_header.scss */
+  header .navbar {
+    background-color: #01093F;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  /* line 11, ../sass/_header.scss */
+  header .navbar {
+    background-color: #01093F;
+  }
+}
+/* line 19, ../sass/_header.scss */
+header .navbar .active {
+  color: #007BFF !important;
+  font-weight: bold;
+}
+/* line 24, ../sass/_header.scss */
+header .top-nav-collapse {
+  background-color: #01093F;
+}
