@@ -1,5 +1,11 @@
 main{
     &.container-main-wapper{
         background-image: linear-gradient(to right top, #f6f6f6, #f8f8f8, #fafafa, #fdfdfd, #ffffff);
+        .img-card-50{
+          min-height: 350px;
+        }
+        .text-card-50{
+          min-height: 350px;
+        }
     }
 }

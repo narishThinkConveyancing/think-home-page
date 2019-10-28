@@ -1389,3 +1389,11 @@ header .typewriter {
 main.container-main-wapper {
   background-image: linear-gradient(to right top, #f6f6f6, #f8f8f8, #fafafa, #fdfdfd, #ffffff);
 }
+/* line 4, ../sass/_global.scss */
+main.container-main-wapper .img-card-50 {
+  min-height: 350px;
+}
+/* line 7, ../sass/_global.scss */
+main.container-main-wapper .text-card-50 {
+  min-height: 350px;
+}
