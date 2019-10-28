@@ -168,7 +168,7 @@ html, body, header, .view {
 /* Additional Spaces */
 /* line 2, ../sass/_header.scss */
 header .intro-front-view {
-  background: url("../../assets/img/tssiBanner.png") no-repeat center center;
+  background: url("../../assets/img/banner/blue-poly-img.jpg") no-repeat center center;
   min-height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -200,4 +200,14 @@ header .navbar .active {
 /* line 24, ../sass/_header.scss */
 header .top-nav-collapse {
   background-color: #01093F;
+}
+
+/* line 2, ../sass/_global.scss */
+main .avatar-115px {
+  width: 115px;
+  height: 115px;
+  background-color: #F5F5F8;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
