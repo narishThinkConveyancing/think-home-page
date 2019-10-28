@@ -1,194 +1,9 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 1, ../sass/_utilities.scss */
-html, body, header, .view {
-  height: 100%;
-  margin: 0;
-  scroll-behavior: smooth;
-}
-
-/* line 7, ../sass/_utilities.scss */
-.max-w-100 {
-  max-width: 100% !important;
-}
-
-/* Height */
-/* line 13, ../sass/_utilities.scss */
-.h-100vh {
-  height: 100vh !important;
-}
-
-/* line 16, ../sass/_utilities.scss */
-.h-25vh {
-  height: 25vh !important;
-}
-
-/* Height */
-/* Typhography */
-/* line 23, ../sass/_utilities.scss */
-.scarlet-text {
-  color: #FF2500 !important;
-}
-
-/* line 26, ../sass/_utilities.scss */
-.midnight-express-text {
-  color: #01093F !important;
-}
-
-/* line 29, ../sass/_utilities.scss */
-.link-water-text {
-  color: #CFD0D7 !important;
-}
-
-/* line 32, ../sass/_utilities.scss */
-.mischka-text {
-  color: #A5A7B1 !important;
-}
-
-/* line 35, ../sass/_utilities.scss */
-.tifanny-cyan-text {
-  color: #0bc1af !important;
-}
-
-/* line 38, ../sass/_utilities.scss */
-.dark-cyan-text {
-  color: #019A8B !important;
-}
-
-/* line 41, ../sass/_utilities.scss */
-.space-text {
-  color: #AABBCC !important;
-}
-
-/* line 44, ../sass/_utilities.scss */
-.gray-text {
-  color: #979797 !important;
-}
-
-/* line 47, ../sass/_utilities.scss */
-.baby-blue-text {
-  color: #016BB7 !important;
-}
-
-/* line 50, ../sass/_utilities.scss */
-.baby-pink-text {
-  color: #FFB0A1 !important;
-}
-
-/* line 53, ../sass/_utilities.scss */
-.blue-gray-text {
-  color: #9195B1 !important;
-}
-
-/* line 56, ../sass/_utilities.scss */
-.black-text {
-  color: #000000 !important;
-}
-
-/* Typhography */
-/* Backgound */
-/* line 62, ../sass/_utilities.scss */
-.midnight-express-bg {
-  background: #01093F !important;
-}
-
-/* line 65, ../sass/_utilities.scss */
-.midnight-express-bg-30pct {
-  background: #01093f !important;
-}
-
-/* line 68, ../sass/_utilities.scss */
-.ghost-white-bg {
-  background: #f1f2f9 !important;
-}
-
-/* line 71, ../sass/_utilities.scss */
-.nobel-bg {
-  background: #979797 !important;
-}
-
-/* line 74, ../sass/_utilities.scss */
-.mischka-bg {
-  background: #A5A7B1 !important;
-}
-
-/* line 77, ../sass/_utilities.scss */
-.dark-cyan-bg {
-  background: #019A8B !important;
-}
-
-/* line 80, ../sass/_utilities.scss */
-.navy-blue-bg {
-  background: #01093F !important;
-}
-
-/* line 83, ../sass/_utilities.scss */
-.black-bg {
-  background: #000000 !important;
-}
-
-/* line 86, ../sass/_utilities.scss */
-.gray-bg {
-  background: #979797 !important;
-}
-
-/* Backgound */
-/* Backgound image sizing */
-/* line 92, ../sass/_utilities.scss */
-.bg-img-w250px-h250px {
-  width: 250px;
-  height: 250px;
-  background-color: #F5F5F8;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Backgound image sizing */
-/* Additional Spaces*/
-/* line 103, ../sass/_utilities.scss */
-.maxMargin {
-  margin-top: 90px;
-}
-@media screen and (max-width: 575.98px) {
-  /* line 103, ../sass/_utilities.scss */
-  .maxMargin {
-    margin-top: 120px;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* line 103, ../sass/_utilities.scss */
-  .maxMargin {
-    margin-top: 120px;
-  }
-}
-
-/* Additional Spaces */
-/* line 113, ../sass/_utilities.scss */
-.avatar-100px {
-  width: 90px;
-  height: 90px;
-  background-color: #70CBFA;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-/* line 1, ../sass/_buttons-effect.scss */
-.fancy-button-class {
+.fancy-button-class{
   display: flex;
   justify-content: center;
-  /* Basic Styles */
-  /* Colors */
-  /* Shapes */
-  /* Effects */
-  /* Keyframes */
-  /* Mixins */
-  /* Styles for example - not included in main css files */
-}
-/* line 6, ../sass/_buttons-effect.scss */
-.fancy-button-class .fancy-button {
+
+/* Basic Styles */
+.fancy-button {
   position: relative;
   color: #fff;
   border: 1px solid;
@@ -205,205 +20,166 @@ html, body, header, .view {
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 23, ../sass/_buttons-effect.scss */
-.fancy-button-class .fancy-button:hover {
+.fancy-button:hover {
   text-decoration: none;
 }
-/* line 26, ../sass/_buttons-effect.scss */
-.fancy-button-class .fancy-button .icon {
+.fancy-button .icon {
   float: right;
 }
-/* line 29, ../sass/_buttons-effect.scss */
-.fancy-button-class .fancy-button.icon {
-  display: inline-block;
+.fancy-button.icon{
+display: inline-block;
 }
-/* line 32, ../sass/_buttons-effect.scss */
-.fancy-button-class .fancy-button:active .icon,
-.fancy-button-class .fancy-button:focus .icon {
+.fancy-button:active .icon,
+.fancy-button:focus .icon {
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
   -o-transform: scale(0.75);
   transform: scale(0.75);
 }
-/* line 39, ../sass/_buttons-effect.scss */
-.fancy-button-class .small {
+.small {
   padding: 5px 15px;
   font-size: 1em;
   height: 25px;
 }
-/* line 44, ../sass/_buttons-effect.scss */
-.fancy-button-class .medium {
+.medium {
   padding: 10px 25px;
   font-size: 1.15em;
 }
-/* line 48, ../sass/_buttons-effect.scss */
-.fancy-button-class .large {
+.large {
   padding: 20px 25px;
   font-size: 1.25em;
   height: 55px;
 }
-/* line 53, ../sass/_buttons-effect.scss */
-.fancy-button-class .fixed {
+.fixed{
   display: inline-block;
   vertical-align: middle;
 }
-/* line 57, ../sass/_buttons-effect.scss */
-.fancy-button-class .fixed .icon {
+.fixed .icon{
   margin-left: 20px;
 }
-/* line 62, ../sass/_buttons-effect.scss */
-.fancy-button-class .esmerald {
+
+/* Colors */
+.esmerald {
   background-color: #2ecc71;
 }
-/* line 65, ../sass/_buttons-effect.scss */
-.fancy-button-class .esmerald:hover {
+.esmerald:hover {
   color: #2ecc71;
   background-color: #fff;
 }
-/* line 69, ../sass/_buttons-effect.scss */
-.fancy-button-class .blueRiver {
+.blueRiver {
   background-color: #3498db;
 }
-/* line 72, ../sass/_buttons-effect.scss */
-.fancy-button-class .blueRiver:hover {
+.blueRiver:hover {
   color: #3498db;
   background-color: #fff;
 }
-/* line 76, ../sass/_buttons-effect.scss */
-.fancy-button-class .amethyst {
+.amethyst {
   background-color: #9b59b6;
 }
-/* line 79, ../sass/_buttons-effect.scss */
-.fancy-button-class .amethyst:hover {
+.amethyst:hover {
   color: #9b59b6;
   background-color: #fff;
 }
-/* line 83, ../sass/_buttons-effect.scss */
-.fancy-button-class .greenSea {
+.greenSea {
   background-color: #16a085;
 }
-/* line 86, ../sass/_buttons-effect.scss */
-.fancy-button-class .greenSea:hover {
+.greenSea:hover {
   color: #16a085;
   background-color: #fff;
 }
-/* line 90, ../sass/_buttons-effect.scss */
-.fancy-button-class .nephritis {
+.nephritis {
   background-color: #27ae60;
 }
-/* line 93, ../sass/_buttons-effect.scss */
-.fancy-button-class .nephritis:hover {
+.nephritis:hover {
   color: #27ae60;
   background-color: #fff;
 }
-/* line 97, ../sass/_buttons-effect.scss */
-.fancy-button-class .blueHole {
+.blueHole {
   background-color: #2980b9;
 }
-/* line 100, ../sass/_buttons-effect.scss */
-.fancy-button-class .blueHole:hover {
+.blueHole:hover {
   color: #2980b9;
   background-color: #fff;
 }
-/* line 104, ../sass/_buttons-effect.scss */
-.fancy-button-class .wisteria {
+.wisteria {
   background-color: #8e44ad;
 }
-/* line 107, ../sass/_buttons-effect.scss */
-.fancy-button-class .wisteria:hover {
+.wisteria:hover {
   color: #8e44ad;
   background-color: #fff;
 }
-/* line 111, ../sass/_buttons-effect.scss */
-.fancy-button-class .midnight {
+.midnight {
   background-color: #2c3e50;
 }
-/* line 114, ../sass/_buttons-effect.scss */
-.fancy-button-class .midnight:hover {
+.midnight:hover {
   color: #2c3e50;
   background-color: #fff;
 }
-/* line 118, ../sass/_buttons-effect.scss */
-.fancy-button-class .sun {
+.sun {
   background-color: #f1c40f;
 }
-/* line 121, ../sass/_buttons-effect.scss */
-.fancy-button-class .sun:hover {
+.sun:hover {
   color: #f1c40f;
   background-color: #fff;
 }
-/* line 125, ../sass/_buttons-effect.scss */
-.fancy-button-class .carrot {
+.carrot {
   background-color: #e67e22;
 }
-/* line 128, ../sass/_buttons-effect.scss */
-.fancy-button-class .carrot:hover {
+.carrot:hover {
   color: #e67e22;
   background-color: #fff;
 }
-/* line 132, ../sass/_buttons-effect.scss */
-.fancy-button-class .alizarin {
+.alizarin {
   background-color: #e74c3c;
 }
-/* line 135, ../sass/_buttons-effect.scss */
-.fancy-button-class .alizarin:hover {
+.alizarin:hover {
   color: #e74c3c;
   background-color: #fff;
 }
-/* line 139, ../sass/_buttons-effect.scss */
-.fancy-button-class .concrete {
+.concrete {
   background-color: #95a5a6;
 }
-/* line 142, ../sass/_buttons-effect.scss */
-.fancy-button-class .concrete:hover {
+.concrete:hover {
   color: #95a5a6;
   background-color: #fff;
 }
-/* line 146, ../sass/_buttons-effect.scss */
-.fancy-button-class .orange {
+.orange {
   background-color: #f39c12;
 }
-/* line 149, ../sass/_buttons-effect.scss */
-.fancy-button-class .orange:hover {
+.orange:hover {
   color: #f39c12;
   background-color: #fff;
 }
-/* line 153, ../sass/_buttons-effect.scss */
-.fancy-button-class .pumpkin {
+.pumpkin {
   background-color: #d35400;
 }
-/* line 156, ../sass/_buttons-effect.scss */
-.fancy-button-class .pumpkin:hover {
+.pumpkin:hover {
   color: #d35400;
   background-color: #fff;
 }
-/* line 160, ../sass/_buttons-effect.scss */
-.fancy-button-class .pomegranate {
+.pomegranate {
   background-color: #c0392b;
 }
-/* line 163, ../sass/_buttons-effect.scss */
-.fancy-button-class .pomegranate:hover {
+.pomegranate:hover {
   color: #c0392b;
   background-color: #fff;
 }
-/* line 167, ../sass/_buttons-effect.scss */
-.fancy-button-class .asbestos {
+.asbestos {
   background-color: #7f8c8d;
 }
-/* line 170, ../sass/_buttons-effect.scss */
-.fancy-button-class .asbestos:hover {
+.asbestos:hover {
   color: #7f8c8d;
   background-color: #fff;
 }
-/* line 176, ../sass/_buttons-effect.scss */
-.fancy-button-class .rounded {
+
+/* Shapes */
+.rounded {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 182, ../sass/_buttons-effect.scss */
-.fancy-button-class .half-left-rounded {
+.half-left-rounded {
   -webkit-border-bottom-right-radius: 15px;
   -moz-border-bottom-right-radius: 15px;
   -o-border-bottom-right-radius: 15px;
@@ -421,8 +197,7 @@ html, body, header, .view {
   -o-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
 }
-/* line 200, ../sass/_buttons-effect.scss */
-.fancy-button-class .half-right-rounded {
+.half-right-rounded {
   -webkit-border-bottom-left-radius: 15px;
   -moz-border-bottom-left-radius: 15px;
   -o-border-bottom-left-radius: 15px;
@@ -440,238 +215,209 @@ html, body, header, .view {
   -o-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
 }
-/* line 220, ../sass/_buttons-effect.scss */
-.fancy-button-class .basic {
+
+/* Effects */
+.basic {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 226, ../sass/_buttons-effect.scss */
-.fancy-button-class .basic:hover {
+.basic:hover {
   border: 1px solid;
 }
-/* line 229, ../sass/_buttons-effect.scss */
-.fancy-button-class .zoom {
+.zoom {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 235, ../sass/_buttons-effect.scss */
-.fancy-button-class .zoom:hover .icon {
+.zoom:hover .icon {
   -webkit-animation: zoom 0.25s 2 linear alternate;
   -moz-animation: zoom 0.25s 2 linear alternate;
   -o-animation: zoom 0.25s 2 linear alternate;
   animation: zoom 0.25s 2 linear alternate;
 }
-/* line 241, ../sass/_buttons-effect.scss */
-.fancy-button-class .bell {
+.bell {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 247, ../sass/_buttons-effect.scss */
-.fancy-button-class .bell:hover .icon {
+.bell:hover .icon {
   -webkit-animation: bell 0.15s 6 linear alternate;
   -moz-animation: bell 0.15s 6 linear alternate;
   -o-animation: bell 0.15s 6 linear alternate;
   animation: bell 0.15s 6 linear alternate;
 }
-/* line 253, ../sass/_buttons-effect.scss */
-.fancy-button-class .rotate {
+.rotate {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 259, ../sass/_buttons-effect.scss */
-.fancy-button-class .rotate:hover .icon {
+.rotate:hover .icon {
   -webkit-animation: rotate 1.25s ease;
   -moz-animation: rotate 1.25s ease;
   -o-animation: rotate 1.25s ease;
   animation: rotate 1.25s ease;
 }
-/* line 265, ../sass/_buttons-effect.scss */
-.fancy-button-class .round {
+.round {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 271, ../sass/_buttons-effect.scss */
-.fancy-button-class .round:hover {
+.round:hover {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 277, ../sass/_buttons-effect.scss */
-.fancy-button-class .square {
+.square {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 283, ../sass/_buttons-effect.scss */
-.fancy-button-class .square:hover {
+.square:hover {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
 }
-/* line 289, ../sass/_buttons-effect.scss */
-.fancy-button-class .shadow {
+.shadow {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 295, ../sass/_buttons-effect.scss */
-.fancy-button-class .shadow:hover {
+.shadow:hover {
   -webkit-box-shadow: 0 .1em 1em;
   -moz-box-shadow: 0 .1em 1em;
   -o-box-shadow: 0 .1em 1em;
   box-shadow: 0 .1em 1em;
 }
-/* line 301, ../sass/_buttons-effect.scss */
-.fancy-button-class .move-up {
+.move-up {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 307, ../sass/_buttons-effect.scss */
-.fancy-button-class .move-up:hover {
+.move-up:hover {
   margin-top: -2px;
 }
-/* line 310, ../sass/_buttons-effect.scss */
-.fancy-button-class .vertical {
+.vertical {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 316, ../sass/_buttons-effect.scss */
-.fancy-button-class .vertical:hover .icon {
+.vertical:hover .icon {
   -webkit-animation: vertical 0.75s infinite linear alternate;
   -moz-animation: vertical 0.75s infinite linear alternate;
   -o-animation: vertical 0.75s infinite linear alternate;
   animation: vertical 0.75s infinite linear alternate;
 }
-/* line 322, ../sass/_buttons-effect.scss */
-.fancy-button-class .horizontal {
+.horizontal {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 328, ../sass/_buttons-effect.scss */
-.fancy-button-class .horizontal:hover .icon {
+.horizontal:hover .icon {
   -webkit-animation: horizontal 0.75s infinite linear alternate;
   -moz-animation: horizontal 0.75s infinite linear alternate;
   -o-animation: horizontal 0.75s infinite linear alternate;
   animation: horizontal 0.75s infinite linear alternate;
 }
-/* line 334, ../sass/_buttons-effect.scss */
-.fancy-button-class .down {
+.down {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 340, ../sass/_buttons-effect.scss */
-.fancy-button-class .down:hover .icon {
+.down:hover .icon {
   -webkit-animation: down 0.75s forwards linear;
   -moz-animation: down 0.75s forwards linear;
   -o-animation: down 0.75s forwards linear;
   animation: down 0.75s forwards linear;
 }
-/* line 346, ../sass/_buttons-effect.scss */
-.fancy-button-class .up {
+.up {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 352, ../sass/_buttons-effect.scss */
-.fancy-button-class .up:hover .icon {
+.up:hover .icon {
   -webkit-animation: up 0.75s forwards linear;
   -moz-animation: up 0.75s forwards linear;
   -o-animation: up 0.75s forwards linear;
   animation: up 0.75s forwards linear;
 }
-/* line 358, ../sass/_buttons-effect.scss */
-.fancy-button-class .shake {
+.shake {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 364, ../sass/_buttons-effect.scss */
-.fancy-button-class .shake:hover {
+.shake:hover {
   -webkit-animation: shake 0.005s 100 linear alternate;
   -moz-animation: shake 0.005s 100 linear alternate;
   -o-animation: shake 0.005s 100 linear alternate;
   animation: shake 0.005s 100 linear alternate;
 }
-/* line 370, ../sass/_buttons-effect.scss */
-.fancy-button-class .shrink {
+.shrink {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 376, ../sass/_buttons-effect.scss */
-.fancy-button-class .shrink:hover {
+.shrink:hover {
   -webkit-animation: shrink 0.15s forwards linear;
   -moz-animation: shrink 0.15s forwards linear;
   -o-animation: shrink 0.15s forwards linear;
   animation: shrink 0.15s forwards linear;
 }
-/* line 382, ../sass/_buttons-effect.scss */
-.fancy-button-class .expand {
+.expand {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 388, ../sass/_buttons-effect.scss */
-.fancy-button-class .expand:hover {
+.expand:hover {
   -webkit-animation: expand 0.15s forwards linear;
   -moz-animation: expand 0.15s forwards linear;
   -o-animation: expand 0.15s forwards linear;
   animation: expand 0.15s forwards linear;
 }
-/* line 394, ../sass/_buttons-effect.scss */
-.fancy-button-class .bounce {
+.bounce {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 400, ../sass/_buttons-effect.scss */
-.fancy-button-class .bounce:hover {
+.bounce:hover {
   -webkit-animation: bounce 0.25s 2 linear alternate;
   -moz-animation: bounce 0.25s 2 linear alternate;
   -o-animation: bounce 0.25s 2 linear alternate;
   animation: bounce 0.25s 2 linear alternate;
 }
-/* line 407, ../sass/_buttons-effect.scss */
-.fancy-button-class .infinite:hover {
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}
-/* line 413, ../sass/_buttons-effect.scss */
-.fancy-button-class .infinite:hover .icon {
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
-  -o-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-}
+
+.infinite:hover{
+ -webkit-animation-iteration-count: infinite;
+ -moz-animation-iteration-count: infinite;
+ -o-animation-iteration-count: infinite;
+ animation-iteration-count: infinite;
+ }
+.infinite:hover .icon {
+ -webkit-animation-iteration-count: infinite;
+ -moz-animation-iteration-count: infinite;
+ -o-animation-iteration-count: infinite;
+ animation-iteration-count: infinite;
+ }
+
+/* Keyframes */
 @-webkit-keyframes zoom {
   from {
     -webkit-transform: scale(1);
@@ -1196,36 +942,33 @@ html, body, header, .view {
     transform: rotate(-3deg);
   }
 }
-/* line 947, ../sass/_buttons-effect.scss */
-.fancy-button-class .transition {
+
+/* Mixins */
+.transition {
   -webkit-transition: all 0.35s ease;
   -moz-transition: all 0.35s ease;
   -o-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-/* line 953, ../sass/_buttons-effect.scss */
-.fancy-button-class .box-sizing {
+.box-sizing {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 959, ../sass/_buttons-effect.scss */
-.fancy-button-class .border-radius {
+.border-radius {
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   -o-border-radius: 15px;
   border-radius: 15px;
 }
-/* line 965, ../sass/_buttons-effect.scss */
-.fancy-button-class .full-border-radius {
+.full-border-radius {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 971, ../sass/_buttons-effect.scss */
-.fancy-button-class .half-left-border-radius {
+.half-left-border-radius {
   -webkit-border-bottom-right-radius: 15px;
   -moz-border-bottom-right-radius: 15px;
   -o-border-bottom-right-radius: 15px;
@@ -1243,8 +986,7 @@ html, body, header, .view {
   -o-border-top-right-radius: 5px;
   border-top-right-radius: 5px;
 }
-/* line 989, ../sass/_buttons-effect.scss */
-.fancy-button-class .half-right-border-radius {
+.half-right-border-radius {
   -webkit-border-bottom-left-radius: 15px;
   -moz-border-bottom-left-radius: 15px;
   -o-border-bottom-left-radius: 15px;
@@ -1262,126 +1004,52 @@ html, body, header, .view {
   -o-border-top-left-radius: 5px;
   border-top-left-radius: 5px;
 }
-/* line 1010, ../sass/_buttons-effect.scss */
-.fancy-button-class .sample-container {
-  margin: 135px auto;
-  width: 70%;
-}
-/* line 1014, ../sass/_buttons-effect.scss */
-.fancy-button-class .sample-container h3 {
-  border-bottom: 1px solid #ccc;
-}
-/* line 1017, ../sass/_buttons-effect.scss */
-.fancy-button-class header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: #eee;
-  height: 125px;
-  line-height: 125px;
-  vertical-align: middle;
-  width: 100%;
-  text-align: center;
-  z-index: 9999;
-}
-/* line 1029, ../sass/_buttons-effect.scss */
-.fancy-button-class header h1 {
-  margin: 10px auto -30px auto;
-}
-/* line 1032, ../sass/_buttons-effect.scss */
-.fancy-button-class header a {
-  background: #e74c3c;
-  color: #fff;
-  padding: 10px 25px;
-  display: inline;
-  vertical-align: top;
-  text-decoration: none;
-}
-/* line 1040, ../sass/_buttons-effect.scss */
-.fancy-button-class header a:hover {
-  background: #B03B2F;
-  color: #fff;
-  text-decoration: none;
-}
-/* line 1045, ../sass/_buttons-effect.scss */
-.fancy-button-class .tweet {
-  position: fixed;
-  bottom: 50px;
-  left: 10px;
-}
-/* line 1050, ../sass/_buttons-effect.scss */
-.fancy-button-class .face {
-  position: fixed;
-  bottom: 150px;
-  left: 10px;
-}
 
-/* line 1, ../sass/_header.scss */
-header {
-  /* The typing effect */
-  /* The typewriter cursor effect */
-}
-/* line 2, ../sass/_header.scss */
-header .intro-front-view {
-  background: url("../../assets/img/banner/blue-poly-img.jpg") no-repeat center center;
-  min-height: 500px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 11, ../sass/_header.scss */
-header .intro-front-view .full-bg-img .card {
-  background-color: transparent;
-}
-/* line 16, ../sass/_header.scss */
-header .navbar {
-  background-color: transparent;
-}
-@media screen and (max-width: 575.98px) {
-  /* line 16, ../sass/_header.scss */
-  header .navbar {
-    background-color: #01093F;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* line 16, ../sass/_header.scss */
-  header .navbar {
-    background-color: #01093F;
-  }
-}
-/* line 24, ../sass/_header.scss */
-header .navbar .active {
-  color: #007BFF !important;
-  font-weight: bold;
-}
-/* line 29, ../sass/_header.scss */
-header .top-nav-collapse {
-  background-color: #01093F;
-}
-/* line 32, ../sass/_header.scss */
-header .logo-container {
-  position: absolute;
-  bottom: 0;
-}
-/* line 40, ../sass/_header.scss */
-header .typewriter {
-  overflow: hidden;
-  /* Ensures the content is not revealed until the animation */
-  white-space: nowrap;
-  /* Keeps the content on a single line */
-  margin: 0 auto;
-  /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
-  /* Adjust as needed */
-  animation: typing 3.5s steps(40, end);
-}
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+
+			/* Styles for example - not included in main css files */
+			.sample-container {
+			  margin: 135px auto;
+			  width: 70%;
+			}
+			.sample-container h3 {
+			  border-bottom: 1px solid #ccc;
+			}
+			header{
+			position: fixed;
+			top: 0;
+			left: 0;
+			background: #eee;
+			height: 125px;
+			line-height: 125px;
+			vertical-align: middle;
+			width: 100%;
+			text-align: center;
+			z-index:9999;
+			}
+			header h1{
+			margin: 10px auto -30px auto;
+			}
+			header a{
+			background: #e74c3c;
+			color: #fff;
+			padding: 10px 25px;
+			display: inline;
+			vertical-align:top;
+			text-decoration:none;
+			}
+			header a:hover{
+			background: #B03B2F;
+			color: #fff;
+			text-decoration:none;
+			}
+			.tweet{
+			position: fixed;
+			bottom: 50px;
+			left: 10px;
+			}
+			.face{
+			position: fixed;
+			bottom: 150px;
+			left: 10px;
+			}
 }
