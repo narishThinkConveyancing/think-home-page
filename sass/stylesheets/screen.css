@@ -1335,37 +1335,61 @@ header .intro-front-view {
 header .intro-front-view .full-bg-img .card {
   background-color: transparent;
 }
-/* line 16, ../sass/_header.scss */
+/* line 15, ../sass/_header.scss */
+header .intro-front-view:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-top: 140px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 300px solid #fdfdfd;
+}
+/* line 25, ../sass/_header.scss */
+header .intro-front-view:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 140px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 1268px solid #fdfdfd;
+}
+/* line 37, ../sass/_header.scss */
 header .navbar {
   background-color: transparent;
 }
 @media screen and (max-width: 575.98px) {
-  /* line 16, ../sass/_header.scss */
+  /* line 37, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* line 16, ../sass/_header.scss */
+  /* line 37, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
-/* line 24, ../sass/_header.scss */
+/* line 45, ../sass/_header.scss */
 header .navbar .active {
   color: #007BFF !important;
   font-weight: bold;
 }
-/* line 29, ../sass/_header.scss */
+/* line 50, ../sass/_header.scss */
 header .top-nav-collapse {
   background-color: #01093F;
 }
-/* line 32, ../sass/_header.scss */
+/* line 53, ../sass/_header.scss */
 header .logo-container {
   position: absolute;
   bottom: 0;
+  z-index: 1;
 }
-/* line 40, ../sass/_header.scss */
+/* line 62, ../sass/_header.scss */
 header .typewriter {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
