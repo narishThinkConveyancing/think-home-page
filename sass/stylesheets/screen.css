@@ -1391,9 +1391,16 @@ main.container-main-wapper {
 }
 /* line 4, ../sass/_global.scss */
 main.container-main-wapper .img-card-50 {
-  min-height: 350px;
+  min-height: 422px;
 }
 /* line 7, ../sass/_global.scss */
 main.container-main-wapper .text-card-50 {
-  min-height: 350px;
+  min-height: 422px;
+}
+/* line 10, ../sass/_global.scss */
+main.container-main-wapper .parallax-states {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
