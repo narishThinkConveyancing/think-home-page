@@ -1323,7 +1323,7 @@ header {
 }
 /* line 2, ../sass/_header.scss */
 header .intro-front-view {
-  background: url("../../assets/img/banner/blue-poly-img.jpg") no-repeat center center;
+  background-image: url("https://images.pexels.com/photos/443383/pexels-photo-443383.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   min-height: 500px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -1331,11 +1331,11 @@ header .intro-front-view {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 11, ../sass/_header.scss */
+/* line 13, ../sass/_header.scss */
 header .intro-front-view .full-bg-img .card {
   background-color: transparent;
 }
-/* line 15, ../sass/_header.scss */
+/* line 17, ../sass/_header.scss */
 header .intro-front-view:before {
   content: '';
   position: absolute;
@@ -1346,7 +1346,7 @@ header .intro-front-view:before {
   border-bottom: 0px solid transparent;
   border-left: 300px solid #fdfdfd;
 }
-/* line 25, ../sass/_header.scss */
+/* line 27, ../sass/_header.scss */
 header .intro-front-view:after {
   content: '';
   position: absolute;
@@ -1358,38 +1358,46 @@ header .intro-front-view:after {
   border-bottom: 0px solid transparent;
   border-right: 1268px solid #fdfdfd;
 }
-/* line 37, ../sass/_header.scss */
+/* line 39, ../sass/_header.scss */
 header .navbar {
   background-color: transparent;
 }
 @media screen and (max-width: 575.98px) {
-  /* line 37, ../sass/_header.scss */
+  /* line 39, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* line 37, ../sass/_header.scss */
+  /* line 39, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
-/* line 45, ../sass/_header.scss */
-header .navbar .active {
-  color: #007BFF !important;
-  font-weight: bold;
+/* line 47, ../sass/_header.scss */
+header .navbar li a {
+  color: transparent !important;
 }
-/* line 50, ../sass/_header.scss */
+/* line 52, ../sass/_header.scss */
 header .top-nav-collapse {
   background-color: #01093F;
 }
-/* line 53, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
+header .top-nav-collapse li a {
+  color: white !important;
+}
+/* line 57, ../sass/_header.scss */
+header .top-nav-collapse .active {
+  color: #007BFF !important;
+  font-weight: bold;
+}
+/* line 62, ../sass/_header.scss */
 header .logo-container {
   position: absolute;
   bottom: 0;
   z-index: 1;
 }
-/* line 62, ../sass/_header.scss */
+/* line 71, ../sass/_header.scss */
 header .typewriter {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
