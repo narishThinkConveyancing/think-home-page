@@ -99,6 +99,30 @@ html, body, header, .view {
 }
 /* Backgound image sizing */
 
+/* Overflow */
+.overflow-hidden{
+    overflow: hidden !important;
+}
+.overflow-visible{
+    overflow: visible !important;
+}
+.overflow-auto{
+    overflow: auto !important;
+}
+.overflow-x-hidden{
+	overflow-x: hidden;
+}
+.overflow-y-hidden{
+	overflow-y: hidden;
+}
+.overflow-x-auto{
+	overflow-x: auto;
+}
+.overflow-y-auto{
+	overflow-y: auto;
+}
+/* Overflow */
+
 /* Additional Spaces*/
 .maxMargin{
   margin-top: 90px;
