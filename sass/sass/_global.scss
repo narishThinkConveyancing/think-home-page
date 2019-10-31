@@ -13,5 +13,13 @@ main{
             background-repeat: no-repeat;
             background-size: cover;
         }
+        .card-deck{
+          .card-title{
+            margin: 20px 0px;
+            color: white !important;
+            text-align: center;
+            font-weight: bold;
+          }
+        }
     }
 }

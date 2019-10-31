@@ -1382,8 +1382,9 @@ header .intro-front-view:before {
   border-top: 140px solid transparent;
   border-bottom: 0px solid transparent;
   border-left: 300px solid #fdfdfd;
+  z-index: 1;
 }
-/* line 27, ../sass/_header.scss */
+/* line 28, ../sass/_header.scss */
 header .intro-front-view:after {
   content: '';
   position: absolute;
@@ -1395,52 +1396,52 @@ header .intro-front-view:after {
   border-bottom: 0px solid transparent;
   border-right: 1268px solid #fdfdfd;
 }
-/* line 39, ../sass/_header.scss */
+/* line 40, ../sass/_header.scss */
 header .navbar {
   background-color: transparent;
 }
 @media screen and (max-width: 575.98px) {
-  /* line 39, ../sass/_header.scss */
+  /* line 40, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* line 39, ../sass/_header.scss */
+  /* line 40, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
-/* line 47, ../sass/_header.scss */
+/* line 48, ../sass/_header.scss */
 header .navbar li a {
   color: transparent !important;
   cursor: default;
   pointer-events: none;
 }
-/* line 54, ../sass/_header.scss */
+/* line 55, ../sass/_header.scss */
 header .top-nav-collapse {
   background-color: #01093F;
 }
-/* line 56, ../sass/_header.scss */
+/* line 57, ../sass/_header.scss */
 header .top-nav-collapse li a {
   color: white !important;
   cursor: pointer;
   pointer-events: auto;
 }
-/* line 61, ../sass/_header.scss */
+/* line 62, ../sass/_header.scss */
 header .top-nav-collapse .active {
   color: #007BFF !important;
   font-weight: bold;
   cursor: pointer;
   pointer-events: auto;
 }
-/* line 68, ../sass/_header.scss */
+/* line 69, ../sass/_header.scss */
 header .logo-container {
   position: absolute;
   bottom: 0;
   z-index: 1;
 }
-/* line 77, ../sass/_header.scss */
+/* line 78, ../sass/_header.scss */
 header .typewriter {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
@@ -1478,6 +1479,13 @@ main.container-main-wapper .parallax-states {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+/* line 17, ../sass/_global.scss */
+main.container-main-wapper .card-deck .card-title {
+  margin: 20px 0px;
+  color: white !important;
+  text-align: center;
+  font-weight: bold;
 }
 
 /* line 3, ../sass/home/_style.scss */
