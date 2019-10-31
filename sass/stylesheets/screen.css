@@ -1377,27 +1377,33 @@ header .navbar {
 /* line 47, ../sass/_header.scss */
 header .navbar li a {
   color: transparent !important;
+  cursor: default;
+  pointer-events: none;
 }
-/* line 52, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
 header .top-nav-collapse {
   background-color: #01093F;
 }
-/* line 54, ../sass/_header.scss */
+/* line 56, ../sass/_header.scss */
 header .top-nav-collapse li a {
   color: white !important;
+  cursor: pointer;
+  pointer-events: auto;
 }
-/* line 57, ../sass/_header.scss */
+/* line 61, ../sass/_header.scss */
 header .top-nav-collapse .active {
   color: #007BFF !important;
   font-weight: bold;
+  cursor: pointer;
+  pointer-events: auto;
 }
-/* line 62, ../sass/_header.scss */
+/* line 68, ../sass/_header.scss */
 header .logo-container {
   position: absolute;
   bottom: 0;
   z-index: 1;
 }
-/* line 71, ../sass/_header.scss */
+/* line 77, ../sass/_header.scss */
 header .typewriter {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */

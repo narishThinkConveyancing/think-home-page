@@ -46,6 +46,8 @@ header{
       }
       li a{
         color: transparent !important;
+        cursor: default;
+        pointer-events: none;
       }
 
   }
@@ -53,10 +55,14 @@ header{
       background-color: $midnight-express;
       li a{
         color: white !important;
+        cursor: pointer;
+        pointer-events: auto;
       }
       .active  {
           color: $dogger-blue !important;
           font-weight: bold;
+          cursor: pointer;
+          pointer-events: auto;
       }
   }
   .logo-container{
