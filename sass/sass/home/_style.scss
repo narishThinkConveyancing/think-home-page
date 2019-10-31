@@ -1,0 +1,87 @@
+main{
+    .think-home-head{
+        &:before{
+          content: '';
+          position: absolute;
+          bottom: -70px;
+          width: 0;
+          height: 0;
+          left: 0%;
+          border-top: 140px solid transparent;
+          border-bottom: 0px solid transparent;
+          border-left: 300px solid #f8f8f8;
+          @include mediaQueries (xl){
+              border-left: 700px solid #f8f8f8;
+          }
+          z-index: -1;
+        }
+        &:after{
+          content: '';
+          position: absolute;
+          bottom: -70px;
+          right: 0;
+          width: 0;
+          height: 0;
+          right: 0%;
+          border-top: 140px solid transparent;
+          border-bottom: 0px solid transparent;
+          border-right: 1268px solid #f8f8f8;
+          z-index: -1;
+        }
+        .think-home-smart-con-quote{
+            background: #006cb7;
+            &:before{
+                content:'';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                width: 0;
+                height: 0;
+                border-top: solid 20px #FFFFFF;
+                border-left: solid 20px transparent;
+                border-right: solid 20px transparent;
+            }
+        }
+        .think-home-bg-magic{
+            position: absolute;
+            margin-top: -170px;
+            /* top: -70%; */
+            right: -10%;
+            width: 500px;
+            height: 400px;
+            background-color: #006cb7;
+            background-size: cover;
+            border-radius: 20px;
+            transform: rotate(30deg);
+            z-index: -1;
+            background-image: url('../../assets/img/gallery/1.png');
+            background-blend-mode: soft-light;
+            // background-image: url('http://themepixels.me/dashforge/assets/img/home-bg.png');
+            @include mediaQueries (xl){
+                right: -50%;
+            }
+            &:before{
+                content: '';
+                position: absolute;
+                width: 400px;
+                height: 250px;
+                background-color: #004678;
+                bottom: 0;
+                left: -410px;
+                border-radius: 20px;
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                width: 400px;
+                height: 100%;
+                background-color: #0095ff;
+                bottom: 0;
+                right: -415px;
+                border-radius: 20px;
+            }
+        }
+    }
+}

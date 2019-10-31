@@ -147,26 +147,63 @@ html, body, header, .view {
 }
 
 /* Backgound image sizing */
-/* Additional Spaces*/
+/* Overflow */
 /* line 103, ../sass/_utilities.scss */
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+/* line 106, ../sass/_utilities.scss */
+.overflow-visible {
+  overflow: visible !important;
+}
+
+/* line 109, ../sass/_utilities.scss */
+.overflow-auto {
+  overflow: auto !important;
+}
+
+/* line 112, ../sass/_utilities.scss */
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+/* line 115, ../sass/_utilities.scss */
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+/* line 118, ../sass/_utilities.scss */
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+/* line 121, ../sass/_utilities.scss */
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+/* Overflow */
+/* Additional Spaces*/
+/* line 127, ../sass/_utilities.scss */
 .maxMargin {
   margin-top: 90px;
 }
 @media screen and (max-width: 575.98px) {
-  /* line 103, ../sass/_utilities.scss */
+  /* line 127, ../sass/_utilities.scss */
   .maxMargin {
     margin-top: 120px;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* line 103, ../sass/_utilities.scss */
+  /* line 127, ../sass/_utilities.scss */
   .maxMargin {
     margin-top: 120px;
   }
 }
 
 /* Additional Spaces */
-/* line 113, ../sass/_utilities.scss */
+/* line 137, ../sass/_utilities.scss */
 .avatar-100px {
   width: 90px;
   height: 90px;
@@ -1441,4 +1478,100 @@ main.container-main-wapper .parallax-states {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* line 3, ../sass/home/_style.scss */
+main .think-home-head:before {
+  content: '';
+  position: absolute;
+  bottom: -70px;
+  width: 0;
+  height: 0;
+  left: 0%;
+  border-top: 140px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 300px solid #f8f8f8;
+  z-index: -1;
+}
+@media screen and (min-width: 1200px) {
+  /* line 3, ../sass/home/_style.scss */
+  main .think-home-head:before {
+    border-left: 700px solid #f8f8f8;
+  }
+}
+/* line 18, ../sass/home/_style.scss */
+main .think-home-head:after {
+  content: '';
+  position: absolute;
+  bottom: -70px;
+  right: 0;
+  width: 0;
+  height: 0;
+  right: 0%;
+  border-top: 140px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 1268px solid #f8f8f8;
+  z-index: -1;
+}
+/* line 31, ../sass/home/_style.scss */
+main .think-home-head .think-home-smart-con-quote {
+  background: #006cb7;
+}
+/* line 33, ../sass/home/_style.scss */
+main .think-home-head .think-home-smart-con-quote:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  border-top: solid 20px #FFFFFF;
+  border-left: solid 20px transparent;
+  border-right: solid 20px transparent;
+}
+/* line 47, ../sass/home/_style.scss */
+main .think-home-head .think-home-bg-magic {
+  position: absolute;
+  margin-top: -170px;
+  /* top: -70%; */
+  right: -10%;
+  width: 500px;
+  height: 400px;
+  background-color: #006cb7;
+  background-size: cover;
+  border-radius: 20px;
+  transform: rotate(30deg);
+  z-index: -1;
+  background-image: url("../../assets/img/gallery/1.png");
+  background-blend-mode: soft-light;
+}
+@media screen and (min-width: 1200px) {
+  /* line 47, ../sass/home/_style.scss */
+  main .think-home-head .think-home-bg-magic {
+    right: -50%;
+  }
+}
+/* line 65, ../sass/home/_style.scss */
+main .think-home-head .think-home-bg-magic:before {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  background-color: #004678;
+  bottom: 0;
+  left: -410px;
+  border-radius: 20px;
+}
+/* line 75, ../sass/home/_style.scss */
+main .think-home-head .think-home-bg-magic:after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 100%;
+  background-color: #0095ff;
+  bottom: 0;
+  right: -415px;
+  border-radius: 20px;
 }
