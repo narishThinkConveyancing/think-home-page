@@ -1478,12 +1478,11 @@ main.container-main-wapper .parallax-states {
 main .think-home-head:before {
   content: '';
   position: absolute;
-  bottom: -70px;
+  bottom: 0;
   width: 0;
   height: 0;
-  left: 0%;
+  left: -35%;
   border-top: 140px solid transparent;
-  border-bottom: 0px solid transparent;
   border-left: 300px solid #f8f8f8;
   z-index: -1;
 }
@@ -1493,25 +1492,24 @@ main .think-home-head:before {
     border-left: 700px solid #f8f8f8;
   }
 }
-/* line 18, ../sass/home/_style.scss */
+/* line 17, ../sass/home/_style.scss */
 main .think-home-head:after {
   content: '';
   position: absolute;
-  bottom: -70px;
+  bottom: 0;
   right: 0;
   width: 0;
   height: 0;
-  right: 0%;
+  right: -35%;
   border-top: 140px solid transparent;
-  border-bottom: 0px solid transparent;
   border-right: 1268px solid #f8f8f8;
   z-index: -1;
 }
-/* line 31, ../sass/home/_style.scss */
+/* line 29, ../sass/home/_style.scss */
 main .think-home-head .think-home-smart-con-quote {
   background: #006cb7;
 }
-/* line 33, ../sass/home/_style.scss */
+/* line 31, ../sass/home/_style.scss */
 main .think-home-head .think-home-smart-con-quote:before {
   content: '';
   position: absolute;
@@ -1525,7 +1523,7 @@ main .think-home-head .think-home-smart-con-quote:before {
   border-left: solid 20px transparent;
   border-right: solid 20px transparent;
 }
-/* line 47, ../sass/home/_style.scss */
+/* line 45, ../sass/home/_style.scss */
 main .think-home-head .think-home-bg-magic {
   position: absolute;
   margin-top: -170px;
@@ -1538,16 +1536,16 @@ main .think-home-head .think-home-bg-magic {
   border-radius: 20px;
   transform: rotate(30deg);
   z-index: -1;
-  background-image: url("../../assets/img/gallery/1.png");
+  background-image: url("../../assets/img/banner/banner.jpg");
   background-blend-mode: soft-light;
 }
 @media screen and (min-width: 1200px) {
-  /* line 47, ../sass/home/_style.scss */
+  /* line 45, ../sass/home/_style.scss */
   main .think-home-head .think-home-bg-magic {
     right: -50%;
   }
 }
-/* line 65, ../sass/home/_style.scss */
+/* line 62, ../sass/home/_style.scss */
 main .think-home-head .think-home-bg-magic:before {
   content: '';
   position: absolute;
@@ -1558,7 +1556,7 @@ main .think-home-head .think-home-bg-magic:before {
   left: -410px;
   border-radius: 20px;
 }
-/* line 75, ../sass/home/_style.scss */
+/* line 72, ../sass/home/_style.scss */
 main .think-home-head .think-home-bg-magic:after {
   content: '';
   position: absolute;

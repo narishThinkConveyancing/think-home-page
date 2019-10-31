@@ -3,12 +3,11 @@ main{
         &:before{
           content: '';
           position: absolute;
-          bottom: -70px;
+          bottom: 0;
           width: 0;
           height: 0;
-          left: 0%;
+          left: -35%;
           border-top: 140px solid transparent;
-          border-bottom: 0px solid transparent;
           border-left: 300px solid #f8f8f8;
           @include mediaQueries (xl){
               border-left: 700px solid #f8f8f8;
@@ -18,13 +17,12 @@ main{
         &:after{
           content: '';
           position: absolute;
-          bottom: -70px;
+          bottom: 0;
           right: 0;
           width: 0;
           height: 0;
-          right: 0%;
+          right: -35%;
           border-top: 140px solid transparent;
-          border-bottom: 0px solid transparent;
           border-right: 1268px solid #f8f8f8;
           z-index: -1;
         }
@@ -56,9 +54,8 @@ main{
             border-radius: 20px;
             transform: rotate(30deg);
             z-index: -1;
-            background-image: url('../../assets/img/gallery/1.png');
+            background-image: url('../../assets/img/banner/banner.jpg');
             background-blend-mode: soft-light;
-            // background-image: url('http://themepixels.me/dashforge/assets/img/home-bg.png');
             @include mediaQueries (xl){
                 right: -50%;
             }
