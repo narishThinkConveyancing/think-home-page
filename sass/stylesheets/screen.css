@@ -1384,7 +1384,13 @@ header .intro-front-view:before {
   border-left: 300px solid #fdfdfd;
   z-index: 1;
 }
-/* line 28, ../sass/_header.scss */
+@media screen and (min-width: 1200px) {
+  /* line 17, ../sass/_header.scss */
+  header .intro-front-view:before {
+    border-left: 700px solid #fdfdfd;
+  }
+}
+/* line 31, ../sass/_header.scss */
 header .intro-front-view:after {
   content: '';
   position: absolute;
@@ -1396,52 +1402,52 @@ header .intro-front-view:after {
   border-bottom: 0px solid transparent;
   border-right: 1268px solid #fdfdfd;
 }
-/* line 40, ../sass/_header.scss */
+/* line 43, ../sass/_header.scss */
 header .navbar {
   background-color: transparent;
 }
 @media screen and (max-width: 575.98px) {
-  /* line 40, ../sass/_header.scss */
+  /* line 43, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
-  /* line 40, ../sass/_header.scss */
+  /* line 43, ../sass/_header.scss */
   header .navbar {
     background-color: #01093F;
   }
 }
-/* line 48, ../sass/_header.scss */
+/* line 51, ../sass/_header.scss */
 header .navbar li a {
   color: transparent !important;
   cursor: default;
   pointer-events: none;
 }
-/* line 55, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 header .top-nav-collapse {
   background-color: #01093F;
 }
-/* line 57, ../sass/_header.scss */
+/* line 60, ../sass/_header.scss */
 header .top-nav-collapse li a {
   color: white !important;
   cursor: pointer;
   pointer-events: auto;
 }
-/* line 62, ../sass/_header.scss */
+/* line 65, ../sass/_header.scss */
 header .top-nav-collapse .active {
   color: #007BFF !important;
   font-weight: bold;
   cursor: pointer;
   pointer-events: auto;
 }
-/* line 69, ../sass/_header.scss */
+/* line 72, ../sass/_header.scss */
 header .logo-container {
   position: absolute;
   bottom: 0;
   z-index: 1;
 }
-/* line 78, ../sass/_header.scss */
+/* line 81, ../sass/_header.scss */
 header .typewriter {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */

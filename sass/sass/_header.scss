@@ -23,6 +23,9 @@ header{
       border-top: 140px solid transparent;
       border-bottom: 0px solid transparent;
       border-left: 300px solid #fdfdfd;
+      @include mediaQueries (xl){
+          border-left: 700px solid #fdfdfd;
+      }
       z-index: 1;
     }
     &:after{
